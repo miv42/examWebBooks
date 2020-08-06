@@ -1,0 +1,149 @@
+/********************* MENU ****************************/
+
+.sidenav {
+  padding-top: 20px;
+}
+
+/* customisation pentru linkurile subordonate si pt butonu de dropdown*/
+.sidenav a, .dropdown-btn {
+  padding: 20px 8px 20px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  color: #884dff;
+  border: none;   /*borders are fugly*/
+  background: none; /*ca un blank png basically*/
+  width:100%;
+  text-align: center;
+  cursor: pointer;  /*make pointer to little hand*/
+  outline: none;    /*on click borders are fugly too*/
+  font-family: Yu Gothic, sans-serif;
+}
+
+/*mai micute un pic, ca is SUBmenu items*/
+.sidenav a{
+  font-size: 20px
+}
+
+/* schimba culoarea la hover cu mousu */
+.sidenav .dropdown-btn:hover {
+  color: white;
+}
+
+/*divu in care is butonaele/linkurile de submeniu*/
+.dropdown-container {
+  display: none;    /*sa fie invisibl initial*/
+  flex-direction: column;
+  background-color: white;
+  padding-left: 8px;
+}
+
+.menu-btn {
+  padding: 20px 8px 20px 16px;
+  font-size: 20px;
+  color: #884dff;
+  border: none;   /*borders are fugly*/
+  background: none; /*ca un blank png basically*/
+  width:100%;
+  text-align: center;
+  cursor: pointer;  /*make pointer to little hand*/
+  outline: none;    /*on click borders are fugly too*/
+  font-family: Yu Gothic, sans-serif;
+}
+
+.logout-btn {
+  color: white;
+  font-weight: bold;
+  background-color: red;
+}
+
+
+.login-pg-btn {
+  border: 2px solid #884dff;
+  border-radius: 5px;
+  width: 40%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  outline-color: #884dff;
+  font-family: Yu Gothic, sans-serif;
+  align-self: center;
+}
+
+.signin-link {
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 40%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #884dff;
+  outline-color: white;
+  font-family: Yu Gothic, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.signup-link {
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 40%;
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline-color: white;
+  font-family: Yu Gothic, sans-serif;
+  font-weight: bold;
+  color: #884dff;
+}
+
+.home-btn {
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  width: 10%;
+  height: 60%;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline-color: white;
+  font-family: Yu Gothic, sans-serif;
+  font-weight: bold;
+  color: #884dff;
+}
+
+.add-btn {
+  background-color: #d9d9d9;
+  outline: none;
+  border:none;
+  cursor: pointer;
+}
+
+.dark {
+  background: none;
+  border: none;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  outline: none;
+}
+
+.s-tbn-cont{
+  padding-right: 20px;
+}
+
+.searchthing {
+  border: none;
+  background-color: white;
+  color: #884dff;
+  font-family: Yu Gothic, sans-serif;
+  font-weight: bold;
+  border-radius: 100px;
+  cursor: pointer;
+  outline: none;
+}

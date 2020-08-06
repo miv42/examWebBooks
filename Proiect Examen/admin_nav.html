@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="basic_nav_script.js"></script>
+    <script src="admin_nav_script.js"></script>
+    <script src="index_script.js"></script>
+    <script src="update_script.js"></script>
+    <script src="jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="cards_style.css">
+    <link rel="stylesheet" href="btn_style.css">
+    <title>Proiect Examen - GoodReads Remastered</title>
+  </head>
+  <body>
+    <div class="ribbon">
+      <div class="account-access">
+        <div class="profile-image">
+          <img class="userimg" src="default.png">
+        </div>
+        <div class="user-profile-name" id="username-div"></div>
+      </div>
+
+      <div class="vertical-line"></div>
+
+      <div class="search-bar">
+        <div class="img-container">
+            <img class="search-icon" src="search-icon.png">
+          </div>
+
+        <div class="search-box">
+          <input class="search-input-box" type="text" value="" id="searchboxid"/>
+          </div>
+          <div class="s-tbn-cont">
+            <button class="searchthing" onclick="search_by_text()">GO</button>
+          </div>
+      </div>
+
+      <div class="title-div">
+        the private book club
+      </div>
+
+    </div>
+
+    <div class="menu">
+      <button class="menu-btn" onclick="show_my_books()">MY BOOKS</button>
+      <button class="menu-btn" onclick="init_allbooks()">ALL BOOKS</button>
+      <button class="menu-btn" onclick="add_book_db()">ADD BOOK</button>
+      <button class="menu-btn" onclick="update_book_db()">UPDATE BOOK</button>
+      <button class="menu-btn" onclick="remove_book_db()">DELETE BOOK</button>
+      <button class="menu-btn" onclick="create_table_db()">CREATE TABLE</button>
+      <button class="menu-btn logout-btn" onclick="home_redirect()">LOG OUT</button>
+      <div id="msg"></div>
+    </div>
+
+    <div class="content" id="content">
+      <div class="content-index">
+          <div class="texty hugetext">
+            <p>Welcome</p>
+          </div>
+        </div>
+    </div>
+  </body>
+</html>

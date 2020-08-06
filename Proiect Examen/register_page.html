@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script src="index_script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="btn_style.css">
+    <title>Login Page</title>
+  </head>
+  <body>
+    <div class="ribbon">
+      <button class="home-btn" onclick="home_redirect()">HOME</button>
+    </div>
+    <div class="centered-container">
+      <div class="login-wrapper" id="signup-wrapper">
+        <form action = "signup.php" method="post">
+          <div class="form-group">
+            <label for = "username">First Name: </label>
+            <input type = "text" id = "firstname" name = "firstname" class="form-control"/>
+          </div><br>
+          <div class="form-group">
+            <label for = "username">Last Name: </label>
+            <input type = "text" id = "lastname" name = "lastname" class="form-control"/>
+          </div><br>
+          <div class="form-group">
+            <label for = "username">Email: </label>
+            <input type = "text" id = "email" name = "email" class="form-control"/>
+          </div><br>
+          <div class="form-group">
+            <label for = "username">Userame: </label>
+            <input type = "text" id = "username" name = "username" class="form-control"/>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for = "password">Password: </label>
+            <input type = "password" id = "password" name = "password" class="form-control"/>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for = "password">Confirm password: </label>
+            <input type = "password" id = "pw-rewrite" name = "pw-rewrite" class="form-control"/>
+          </div><br><br>
+          <div class="form-group">
+            <input type = "submit" name = "sign-up" value = "SIGN UP" class="login-pg-btn">
+          </div>
+          <p> Already have an account? <a href="login_page.html">Sign in here </a>
+          </form>
+        </div>
+      </div>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+/**************** CARDS ******************/
+
+.cards {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 100%;
+  gap: 20px;
+  font-family: Yu Gothic, sans-serif;
+}
+
+.card {
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-content {
+   padding: 20px;
+}
+
+.card-image {
+  height: 200px;
+  width: auto;
+}
+
+.horizontal-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.add-icon {
+  height: 40px;
+  width: auto;
+}
+
+.add-book {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.card-controls {
+  background-color: #d9d9d9;
+}
+
+.book-title {
+  font-weight: bold;
+
+}
